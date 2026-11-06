@@ -17,6 +17,8 @@ npm run build
 
 The build copies the static website into `dist/`. Serve that directory on any static host.
 
+For Vercel, `vercel.json` sets the build command to `npm run build` and the output directory to `dist/`.
+
 ## Interactions
 
 - Three simulated workflows, each with staged execution, distinct sample output, and human approval.
