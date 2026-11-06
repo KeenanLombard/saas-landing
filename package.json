@@ -1,0 +1,12 @@
+{
+  "name": "relay-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Relay — a considered AI automation product and website concept.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check script.js && node --check scripts/serve.mjs && node --check scripts/build.mjs"
+  }
+}
